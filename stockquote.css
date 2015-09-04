@@ -1,5 +1,106 @@
 #quote-module {
   border:1px dotted #888;
-  background:#EEE;
+  background:#EEEEEE;
+  font-family:Arial;
   min-height:200px;
+}
+
+.prototype-module {
+  background:#FFFFFF;
+  height: 78px;
+  font-family:Arial;
+}
+
+.container {
+  border-top: solid 3px #747173;
+  background-color:#FFFFFF;
+  width:376px;
+}
+
+.stockquote {
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding-left:5px;
+  padding-right:6px;
+  height:309px;
+  width:365px;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+}
+
+tr:first-child, tr:last-child {
+  border-bottom: none;
+}
+
+td, .stockquote--align-left {
+  margin-left: 10px;
+  margin-right: 11px;
+}
+
+.stockquote__name--company-name {
+  color:#000000;
+  font-family:Century regular;
+  padding-top:13px;
+  padding-bottom:25px;
+  text-transform:uppercase;
+}
+
+.stockquote--serif-font {
+  font-family:Palatino;
+  font-weight:lighter;
+}
+
+.stockquote__last-price--font-size{
+  font-size:1.4em;
+}
+
+.stockquote__change--font{
+  font-size:1em;
+}
+
+.stockquote--gray{
+  color:#756F84;
+  font-family: Sans-serif;
+  font-size:.7em;
+}
+
+.stockquote--bold{
+  color: #000000;
+  font-family: Arial;
+  font-size: .85em;
+  font-weight: bold;
+}
+
+.stockquote--align-left {
+  text-align:left;
+}
+
+.stockquote--align-right {
+  text-align:right;
+}
+
+.stockquote__user-input--box {
+  border:1px solid gray;
+  border-bottom-left-radius:5px;
+  border-top-left-radius:5px;
+  padding:0;
+  height:39px;
+  width:174px;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stockquote__user-submit--button {
+  border: 1px solid #808080;
+  border-bottom-right-radius:5px;
+  border-top-right-radius:5px;
+  padding: 0;
+  font-family: Sans-serif;
+  font-size: .9em;
+  background:#F7F7F7;
+  height: 41px;
+  width: 174px;
 }
